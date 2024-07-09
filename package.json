@@ -5,11 +5,11 @@
     "@nestjs/core": "latest",
     "dotenv": "latest",
     "express": "latest",
-    "nocodb": "latest"
+    "nocodb": "^0.215.0"
   },
   "description": "",
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "keywords": [],
   "license": "ISC",
@@ -22,8 +22,9 @@
   "scripts": {
     "build": "npm install",
     "start": "node index.js",
+    "postinstall": "npm list --depth=0",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "upgrade": "npm uninstall --save nocodb && npm install --save nocodb"
+    "upgrade": "npm uninstall nocodb && npm install nocodb"
   },
   "version": "1.0.0"
 }
