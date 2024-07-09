@@ -3,5 +3,4 @@
 /noco.db
 /package-lock.json
 /nc/
-.env
 node_modules
