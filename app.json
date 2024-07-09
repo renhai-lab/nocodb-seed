@@ -9,6 +9,9 @@
     "DATABASE_URL": {
       "required": true
     },
+    "NC_ONE_CLICK": "true",
+    "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+  },
   "keywords": [
     "nocodb"
   ],
