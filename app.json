@@ -1,0 +1,21 @@
+{
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ],
+  "description": "Build Databases As Spreadsheets : No-Coding Required",
+  "env": {
+    "DATABASE_URL": {
+      "required": true
+    },
+  "keywords": [
+    "nocodb"
+  ],
+  "logo": "https://nocodb.com/brand/favicon-64.png",
+  "name": "nocodb",
+  "repository": "https://github.com/renhai-lab/nocodb-seed",
+  "stack": "container",
+  "success_url": "/dashboard",
+  "website": "https://nocodb.com"
+}
